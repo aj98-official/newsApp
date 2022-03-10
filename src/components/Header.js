@@ -5,7 +5,7 @@ import News from "./News";
 export default function ButtonAppBar() {
   const [searchItem, setSearchItem] = useState("");
   const [foundItems, setFoundItems] = useState([]);
-  const apiKey = "6a1d4f2afd3b4379bd04f56e72a8bb6d";
+  const apiKey = "3ad0399bc0ea483a8708b0e54653d8c1";
 
   const handleInput = (e) => {
     e.preventDefault();
